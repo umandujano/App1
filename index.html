@@ -31,7 +31,7 @@
             <h1>Unidad de Tecnolog&iacute;as de Informaci&oacute;n</h1>
                 <div> 
                     <div><center><b>Departamento de Desarrollo o de Soporte?</b></center> 
-                        <center><input onclick="connect(this.value)" type="button" value="desarrollo" /></center> 
+                        <center><input onclick="connect(this.value)" type="button" value="desarrollo" /></center> <br><br><br>
                         <center><input onclick="connect(this.value)" type="button" value="soporte" /></center> 
                         <center><b>Personal:</b></center> 
                         <ul id="result"></ul>
@@ -46,7 +46,7 @@
 				{ 
 					var term= {button:e}; 
 						$.ajax({ 
-							url:'http://crossfitbri/sitio/uti.php', 
+							url:'http://crossfitbri.com/sitio/uti.php', 
 							type:'POST', 
 							data:term, 
 							dataType:'json', 
