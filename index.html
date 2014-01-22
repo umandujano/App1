@@ -22,25 +22,28 @@
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link href="css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Bichos 1er APP</title>
     </head>
     <body>
-        <div class="app">
+    <img src="img/logo.png" alt="BichoIMG" class="img-rounded">
             <h1>Unidad de Tecnolog&iacute;as de Informaci&oacute;n</h1>
                 <div> 
                     <div><center><b>Departamento de Desarrollo o de Soporte?</b></center> 
-                        <center><input onclick="connect(this.value)" type="button" value="desarrollo" /></center> <br><br><br>
+                        <center><input onclick="connect(this.value)" type="button" value="desarrollo" /></center> <br><br>
                         <center><input onclick="connect(this.value)" type="button" value="soporte" /></center> 
                         <center><b>Personal:</b></center> 
                         <ul id="result"></ul>
                     </div> 
                 </div>
+        <div class="app">
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script charset="utf-8" type="text/javascript" src="js/libs/jquery/jquery.js"></script>
+        <script type="text/javascript" src="js/libs/jquery/jquery.js"></script>
+   		<script type="text/javascript" src="js/libs/bootstrap/bootstrap.min.js"></script>
         <script type="text/javascript">
 			function connect(e) 
 				{ 
